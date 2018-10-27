@@ -345,7 +345,7 @@ button.close {
 .banner-bottom-image-w3text-right img {
     width: 100%;
 }
-.banner-bottom-image-w3text-left h3,.w3agile_contact_left h3,.agileits_about_grid_left h3{
+.w3agile_contact_left h3,.agileits_about_grid_left h3{
 	font-size: 2.5em;
     color: #212121;
     line-height: 1.5em;
@@ -397,7 +397,7 @@ button.close {
 .team,.gallery,.testimonials,.about{
 	padding:0;
 }
-.team h3,.team-bottom h3,.gallery h3,.testimonials h3{
+.team h3,.team-bottom h3,.gallery h3,.testimonials h3,.banner-bottom-image-w3text h3,.about h3{
 	font-size: 2.5em;
     color: #E91E63;
 	padding-bottom:.7em;
