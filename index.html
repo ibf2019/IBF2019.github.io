@@ -36,7 +36,7 @@
 								<li><a href="#CallforPaper" class="scroll" data-hover="Call&nbsp;for&nbsp;Paper">Call&nbsp;for&nbsp;Paper</a></li>
 								<li><a href="#Organization" class="scroll" data-hover="Organization">Organization</a></li>
 								<li><a href="#submission" class="scroll" data-hover="submission">submission</a></li>
-								<li><a href="#Acceptedpapers" class="scroll" data-hover="Accepted&nbsp;papers">Accepted&nbsp;papers</a></li>
+								<li><a href="#Keynote" class="scroll" data-hover="Keynote">Keynote</a></li>
 								<li><a href="#Program" class="scroll" data-hover="Program">Program</a></li>
 							</ul>
 						</nav>
@@ -361,47 +361,97 @@
 		</div>
 	</div>
 	<!-- testimonials -->
-	<div class="testimonials" id="Acceptedpapers">
+	<div class="testimonials" id="Keynote">
 		<div class="container">
-			<h3>Accepted&nbsp;papers</h3>
-			<table class="table table-striped" style="margin:3em 0">
-				<tbody>
-					<tr>
-						<td>He Ye, Matias Martinez, Thomas Durieux and Martin Monperrus</td>
-						<td>A Comprehensive Study of Automatic Program Repair on the QuixBugs Benchmark</td>
-					</tr>
-					<tr>
-						<td>Wanzhi Wen, Bin Zhang, Xiang Gu and Xiaolin Ju</td>
-						<td>An empirical study on combining source selection and transfer learning for cross-project defect prediction</td>
-					</tr>
-					<tr>
-						<td>Béla Vancsics</td>
-						<td>NFL: Neighbor-based Fault Localization Technique</td>
-					</tr>
-					<tr>
-						<td>Ferenc Horváth, Victor Schnepper Lacerda, Árpád Beszédes, László Vidács and Tibor Gyimóthy</td>
-						<td>A New Interactive Fault Localization Method with Context Aware User Feedback</td>
-					</tr>
-					<tr>
-						<td>Xing Xiaoqian and Katsuhisa Maruyama</td>
-						<td>Automatic Software Merging Using Automated Program Repair</td>
-					</tr>
-					<tr>
-						<td>Wei Zhou, Bin Li, Yucong Duan, Zhen Ni and Wanzhi Wen</td>
-						<td>Towards the Localization of Version Issues with Version-related Repair Patterns</td>
-					</tr>
-					<tr>
-						<td>Dingshan Chen, Bin Li, Cheng Zhou and Xuanrui Zhu</td>
-						<td>Automatically Identifying Bug Entities and Relations for Bug Analysis</td>
-					</tr>
-				</tbody>
-			</table>
+			<h3>Keynote</h3>
+			<div>
+					<h2>Learning to Synthesize</h2>
+					<br/>
+					(Yingfei Xiong, Peking University)
+					<br/>
+					9:05 -9:50 a.m., Feb. 24
+					<br/>
+					<br/>
+					<p style="font-size:2em;">Abstract:</p>
+					<br/>
+					<p style="font-size:1.5em;">
+						The core of bug fixing is to synthesize a correct program to replace the buggy program. Due to the well-known problem of weak specification, the synthesized program should not only pass the tests but should have a high probability of being correct. In this talk, I will introduce our recent work on the learning to synthesize framework to address this problem. Based on a training set of programs and their contexts, this framework combines four tools including rewriting rules, machine learning, constraint solving, and search algorithms to find the most likely programs under a context. We have instantiated the framework for program repair and code generation, both showing significant improvements over the state-of-the-art. 
+					</p>
+					<br/>
+					<br/>
+					<p style="font-size:2em;">About the Speaker:</p>
+					<br/>
+					<img src="images/keynote.jpg" alt=" " class="img-responsive" style="float:left;"/>
+					<p style="font-size:1.5em;">
+						Yingfei Xiong is an associate professor at Peking University. He got his Ph.D. degree from the University of Tokyo in 2009 and worked as a postdoctoral fellow at University of Waterloobetween 2009 and 2011. His research interests lie in software engineering and programming language in general, and bug fixing in particular. He has proposed a set of theories, methodologies, and techniques for bug fixing. For example, the repair approach, ACS, is the first one that achieved >70% precision on a general benchmark; in terms of evolutionary bugs, the delta-based bidirectional transformation framework is now considered as one of the standard types of bidirectional transformation frameworks. His work has been adopted by the industry, such as a Linux kernel configuration project, the Huawei company, and the YanCloud DaaS system.
+					</p>
+			</div>
 		</div>
 	</div>
 	<!-- contact -->
-	<div class="team" id="Program" style="background-color:rgb(207, 207, 207)">
-		<div class="container" style="height:30em">
+	<div class="team" id="Program">
+		<div class="container">
 			<h3>Program</h3>
+			<div>
+					<table class="table table-bordered" style="margin:3em 0">
+						<tbody>
+							<tr class="active">
+								<td>Time Schedule</td>
+								<td>24 Feb. 2019, Sunday</td>
+							</tr>
+							<tr>
+								<td>08:00 – 09:00</td>
+								<td>Registration</td>
+							</tr>
+							<tr class="info">
+								<td>09:00 - 09:05</td>
+								<td>Opening</td>
+							</tr>
+							<tr>
+								<td>09:05 - 09:50</td>
+								<td>Keynote Talk: Learning to Synthesize <br/>
+									Yingfei Xiong, Peking University </td>
+							</tr>
+							<tr>
+								<td>09:50 - 10:30</td>
+								<td>Technical Session 1: Analysis and Prediction <br/>
+									1.An empirical study on combining source selection
+									 and transfer learning for cross-project defect<br/>
+									 prediction（Wanzhi Wen, Bin Zhang, Xiang Gu and
+									 Xiaolin Ju）<br/>
+									2.Automatically Identifying Bug Entities and
+									 Relations for Bug Analysis(Dingshan Chen,<br/>
+									 Bin Li, Cheng Zhou and Xuanrui Zhu)<br/>
+									</td>
+							</tr>
+							<tr class="warning">
+								<td>10:30 - 11:00</td>
+								<td>Coffee/Tea Break</td>
+							</tr>
+							<tr>
+								<td>11:00 - 12:30</td>
+								<td>Technical Session 2: Localization and Repair <br/>
+									3.	A Comprehensive Study of Automatic Program
+									 Repair on the QuixBugs Benchmark（He Ye, Matias<br/>
+									  Martinez, Thomas Durieux and Martin Monperrus）<br/>
+									4.	Automatic Software Merging Using Automated
+									 Program Repair（Xing Xiaoqian and Katsuhisa Maruyama）<br/>
+									5.	NFL: Neighbor-based Fault Localization Technique
+									（Béla Vancsics）<br/>
+									6.	A New Interactive Fault Localization Method
+									with Context Aware User Feedback(Ferenc Horváth,<br/>
+									 Victor Schnepper Lacerda, Árpád Beszédes,
+									  László Vidács and Tibor Gyimóthy)<br/>
+									</td>
+							</tr>
+							<tr class="success">
+								<td>12:30h - 14:00</td>
+								<td>Lunch </td>
+							</tr>
+						</tbody>
+					</table>
+					<p style="margin:3em 0">Conference Room 5 天风厅</p>
+			</div>
 		</div>
 	</div>
 	<!-- bootstrap js -->
